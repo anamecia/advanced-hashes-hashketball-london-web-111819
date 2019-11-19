@@ -137,11 +137,11 @@ def team_colors (team_name)
 end
 
 
-def team_names
-  game_hash.collect do |location,team|
-    team[:team_name]
-  end
-end
+#def team_names
+# game_hash.collect do |location,team|
+#    team[:team_name]
+ # end
+#end
 
 def player_numbers (team_name)
   numbers =[]
@@ -265,7 +265,6 @@ def long_name_steals_a_ton?
       end
     end 
   end
-end
 end
 
 
